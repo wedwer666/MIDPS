@@ -7,4 +7,6 @@ void main()
 =======
 	printf("Am inceput primul labolator la midps");
 >>>>>>> midps2
+	printf("where are you?");
+	printf("i am here");
 }
