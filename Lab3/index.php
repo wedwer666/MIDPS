@@ -20,8 +20,8 @@
   	<p>Fiindca noi suntem cei mai buni!!! </p>
   	<p>Oferim cea mai larga varietate de produse din Republica Moldova !</p>
   	<h1>Cine sunt partenerii nostri? </h1>
-  	<p> Academy + Moldova !</p>
-  <img src="academy.jpg" alt="Mountain View" style="width:504px;height:428px;">
+  	<p> Universiatea Tehnnica a Moldovei !</p>
+  <img src="technology-page.jpg" alt="Mountain View" style="width:504px;height:428px;">
   <p>
   
 </article>

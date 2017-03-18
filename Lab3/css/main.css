@@ -1,6 +1,6 @@
 body {
     font: normal .8em/1.5em Arial, Helvetica, sans-serif;
-    background-image: url("../back10.jpg");
+    background-image: url("../1.jpg");
     background-repeat:repeat-x;
     background-attachment:fixed;
     background-position:center;
@@ -81,8 +81,8 @@ a {
     background: #4169E1 url(img/gradient.png) repeat-x 0 -100px !important;
     color: #white !important;
 
-   /* -webkit-border-radius: 0;
-    -moz-border-radius: 0;*/
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
 
     text-shadow: 0 1px 1px rgba(0,0,0, .1);
 }
