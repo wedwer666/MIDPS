@@ -1,0 +1,18 @@
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\obj\Debug\Marly Calculator.csproj.GenerateResource.Cache
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\obj\Debug\calculator.pdb
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\calculator\calculator\obj\Debug\Marly Calculator.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\obj\Debug\calculator.exe
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\obj\Debug\calculator.pdb
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\bin\Debug\calculator.exe
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\bin\Debug\calculator.pdb
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\obj\Debug\Marly Calculator.csprojResolveAssemblyReference.cache
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\acer\Desktop\Anul2.Semestru2\MIDPS\Lab2midpscalculator\calculator\obj\Debug\Marly Calculator.csproj.GenerateResource.Cache

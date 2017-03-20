@@ -7,41 +7,26 @@ using System.Threading.Tasks;
 namespace calculator
 {
     
-    public interface InterfaceCalc
+    public interface InterfataCalc
     {
       
-        void Put_A(double a); 
+        void CalculatorMasa(double a); 
 
-        void Clear_A();
+        void CalculatorMasaClear();
 
-        double Multiplication(double b);
+        double Multiplicare(double b);
 
-        double Division(double b);
+        double Impartire(double b);
 
-        double Sum(double b);
+        double Adunare(double b);
 
-        double Subtraction(double b); 
+        double Scadere(double b); 
 
-        double SqrtX(double b);
+        double Radical(double b);
+          
+        double Radicalx();
 
-        double DegreeY(double b);
-
-        double Sqrt();
-
-        double Square();
-
-        double Factorial();
-
-        double MemoryShow(); 
-
-        void Memory_Clear(); 
-
-        void M_Multiplication(double b);
-
-        void M_Division(double b);
-
-        void M_Sum(double b);
-
-        void M_Subtraction(double b); 
+        double Ridicarepatrat();
+          
     }
 }

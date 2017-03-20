@@ -12,238 +12,313 @@ namespace calculator
 {
     public partial class Form1 : Form
     {
-        Calc C;
+        Calc M;
 
-        int k; 
+        int tmp1; 
 
         public Form1()
         {
-            InitializeComponent();
+            ComponentNou();
 
-            C = new Calc();
+            M = new Calc();
 
-            labelNumber.Text = "0";
+            tmp.Text = "0";
         }
 
        
-        private void buttonClear_Click(object sender, EventArgs e)
+        private void Butonuldecuratare(object sender, EventArgs e)
         {
-            labelNumber.Text = "0";
+            tmp.Text = "0";
 
-            C.Clear_A();
+            M.CalculatorMasaClear();
             FreeButtons();
 
-            k = 0;
+            tmp1 = 0;
         }
-        private void buttonChangeSign_Click(object sender, EventArgs e)
+        private void Butonuldeplusminus(object sender, EventArgs e)
         {
-            if (labelNumber.Text[0] == '-')
-                labelNumber.Text = labelNumber.Text.Remove(0, 1);
+            if (tmp.Text[0] == '-')
+                tmp.Text = tmp.Text.Remove(0, 1);
             else
-                labelNumber.Text = "-" + labelNumber.Text;
+                tmp.Text = "-" + tmp.Text;
         }
 
-        private void buttonPoint_Click(object sender, EventArgs e)
+      /*  private void buttonPoint_Click(object sender, EventArgs e)
         {
-            if ((labelNumber.Text.IndexOf(",") == -1) && (labelNumber.Text.IndexOf("∞") == -1))
-                labelNumber.Text += ",";
+            if ((tmp.Text.IndexOf(",") == -1) && (tmp.Text.IndexOf("∞") == -1))
+                tmp.Text += ",";
         }
+
+               */
           //butonul 0 de apasare
-        private void button0_Click(object sender, EventArgs e)
+        private void Butonul0(object sender, EventArgs e)
         {
-            labelNumber.Text += "0";
+               if (tmp.Text == "0")
+                    tmp.Text = "0";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "0";
 
-            CorrectNumber();
+         //   Corectnumar();
         }
-          // butonul 1 de apasare
-        private void button1_Click(object sender, EventArgs e)
+          // butonul 1 de apasare !!!
+        private void Butonul1(object sender, EventArgs e)
         {
-            labelNumber.Text += "1";
+               if (tmp.Text == "0")
+                    tmp.Text = "1";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "1";
 
-            CorrectNumber();
+       //     Corectnumar();
         }
           // butonul 2 de apasare
-          private void button2_Click(object sender, EventArgs e)
+          private void Butonul2(object sender, EventArgs e)
         {
-            labelNumber.Text += "2";
+               if (tmp.Text == "0")
+                    tmp.Text = "2";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "2";
 
-            CorrectNumber();
+       //     Corectnumar();
         }
           // butonul 3 de apasare
-          private void button3_Click(object sender, EventArgs e)
+          private void Butonul3(object sender, EventArgs e)
         {
-            labelNumber.Text += "3";
+               if (tmp.Text == "0")
+                    tmp.Text = "3";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "3";
 
-            CorrectNumber();
+          //  Corectnumar();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Butonul4(object sender, EventArgs e)
         {
-            labelNumber.Text += "4";
+               if (tmp.Text == "0")
+                    tmp.Text = "4";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "4";
 
-            CorrectNumber();
+         //   Corectnumar();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void Butonul5(object sender, EventArgs e)
         {
-            labelNumber.Text += "5";
+               if (tmp.Text == "0")
+                    tmp.Text = "5";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "5";
 
-            CorrectNumber();
+       //     Corectnumar();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Butonul6(object sender, EventArgs e)
         {
-            labelNumber.Text += "6";
+               if (tmp.Text == "0")
+                    tmp.Text = "6";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "6";
 
-            CorrectNumber();
+      //      Corectnumar();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void Butonul7(object sender, EventArgs e)
         {
-            labelNumber.Text += "7";
+               if (tmp.Text == "0")
+                    tmp.Text = "7";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "7";
 
-            CorrectNumber();
+          //  Corectnumar();
         }
 
-        private void button8_Click(object sender, EventArgs e)
+        private void Butonul8(object sender, EventArgs e)
         {
-            labelNumber.Text += "8";
+               if (tmp.Text == "0")
+                    tmp.Text = "8";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "8";
 
-            CorrectNumber();
+         //   Corectnumar();
         }
 
-        private void button9_Click(object sender, EventArgs e)
+        private void Butonul9(object sender, EventArgs e)
         {
-            labelNumber.Text += "9";
+               if (tmp.Text == "0")
+                    tmp.Text = "9";
+               else if (tmp.Text.Length < 22)
+                    tmp.Text += "9";
 
-            CorrectNumber();
+       //     Corectnumar();
         }
 
-       //fucntia de verificare daca numarul introdus a fost corect
-        private void CorrectNumber()
-        {
+       //fucntia de verificare daca numarul introdus a fost corect ???
+    /*    private void Corectnumar()
+       {
             
-            if (labelNumber.Text.IndexOf("∞") != -1)
-                labelNumber.Text = labelNumber.Text.Substring(0, labelNumber.Text.Length - 1);
+           if (tmp.Text.IndexOf("∞") != -1)
+              tmp.Text = tmp.Text.Substring(0, tmp.Text.Length - 1);
 
            
-            if (labelNumber.Text[0] == '0' && (labelNumber.Text.IndexOf(",") != 1))
-                labelNumber.Text = labelNumber.Text.Remove(0, 1);
+          if (tmp.Text[0] == '0' && (tmp.Text.IndexOf(",") != 1))
+            tmp.Text = tmp.Text.Remove(0, 1);
 
             
-            if (labelNumber.Text[0] == '-')
-                if (labelNumber.Text[1] == '0' && (labelNumber.Text.IndexOf(",") != 2))
-                    labelNumber.Text = labelNumber.Text.Remove(1, 1);
+         if (tmp.Text[0] == '-')
+              if (tmp.Text[1] == '0' && (tmp.Text.IndexOf(",") != 2))
+                  tmp.Text = tmp.Text.Remove(1, 1);
         }
-          
-        private void buttonCalc_Click(object sender, EventArgs e)
+       */   
+        private void ButonulDeApasare(object sender, EventArgs e)
         {
-            if (!buttonMult.Enabled)
-                labelNumber.Text = C.Multiplication(Convert.ToDouble(labelNumber.Text)).ToString();
+            if (!ButonulDeMultiplic.Enabled)
+                tmp.Text = M.Multiplicare(Convert.ToDouble(tmp.Text)).ToString();
 
-            if (!buttonDiv.Enabled)
-                labelNumber.Text = C.Division(Convert.ToDouble(labelNumber.Text)).ToString();
+            if (!ButonulDeImpar.Enabled)
+                tmp.Text = M.Impartire(Convert.ToDouble(tmp.Text)).ToString();
 
             if (!buttonPlus.Enabled)
-                labelNumber.Text = C.Sum(Convert.ToDouble(labelNumber.Text)).ToString();
+                tmp.Text = M.Adunare(Convert.ToDouble(tmp.Text)).ToString();
 
             if (!buttonMinus.Enabled)
-                labelNumber.Text = C.Subtraction(Convert.ToDouble(labelNumber.Text)).ToString();
+                tmp.Text = M.Scadere(Convert.ToDouble(tmp.Text)).ToString();
             
-            if (!buttonDegreeY.Enabled)
-                labelNumber.Text = C.DegreeY(Convert.ToDouble(labelNumber.Text)).ToString();
+           // if (!buttonDegreeY.Enabled)
+               // tmp.Text = M.DegreeY(Convert.ToDouble(tmp.Text)).ToString();
 
-            C.Clear_A();
+            M.CalculatorMasaClear();
             FreeButtons();
 
-            k = 0;
+            tmp1 = 0;
         }
          //butonul de inmultire :)
-        private void buttonMult_Click(object sender, EventArgs e)
+        private void ButonulDeMultiplicare(object sender, EventArgs e)
         {
-            if(CanPress())
+               FreeButtons();
+               if (ApasamButon())
             {
-                C.Put_A(Convert.ToDouble(labelNumber.Text));
+                    if (tmp.Text != "0")
+                         M.CalculatorMasa(Convert.ToDouble(tmp.Text));
 
-                buttonMult.Enabled = false;
+                ButonulDeMultiplic.Enabled = false;
 
-                labelNumber.Text = "0";
+                tmp.Text = "0";
             }
         }
 
         // butonul de div :)
-        private void buttonDiv_Click(object sender, EventArgs e)
+        private void ButonulDeImpartire(object sender, EventArgs e)
         {
-            if (CanPress())
+               FreeButtons();
+               if (ApasamButon())
             {
-                C.Put_A(Convert.ToDouble(labelNumber.Text));
+                    if (tmp.Text != "0")
+                         M.CalculatorMasa(Convert.ToDouble(tmp.Text));
 
-                buttonDiv.Enabled = false;
+                ButonulDeImpar.Enabled = false;
 
-                labelNumber.Text = "0";
+                tmp.Text = "0";
             }
         }
 
          // butonul care trasforma semnul din fata numarului in plus
-        private void buttonPlus_Click(object sender, EventArgs e)
+        private void ButonulPlusInFata(object sender, EventArgs e)
         {
-            if (CanPress())
+               FreeButtons();
+               if (ApasamButon())
             {
-                C.Put_A(Convert.ToDouble(labelNumber.Text));
+                    if (tmp.Text != "0")
+                         M.CalculatorMasa(Convert.ToDouble(tmp.Text));
 
                 buttonPlus.Enabled = false;
 
-                labelNumber.Text = "0";
+                tmp.Text = "0";
             }
         }
 
         // schimbarea semnului in fata numarului in minus
-        private void buttonMinus_Click(object sender, EventArgs e)
+        private void ButonulMinusInFata(object sender, EventArgs e)
         {
-            if (CanPress())
+               FreeButtons();
+               if (ApasamButon())
             {
-                C.Put_A(Convert.ToDouble(labelNumber.Text));
+                    if (tmp.Text != "0")
+                         M.CalculatorMasa(Convert.ToDouble(tmp.Text));
 
                 buttonMinus.Enabled = false;
 
-                labelNumber.Text = "0";
+                tmp.Text = "0";
             }
         }
-        private void buttonSqrt_Click(object sender, EventArgs e)
+        private void ButonulRadical(object sender, EventArgs e)
         {
-            if (CanPress())
+            if (ApasamButon())
             {
-                C.Put_A(Convert.ToDouble(labelNumber.Text));
+                M.CalculatorMasa(Convert.ToDouble(tmp.Text));
 
-                labelNumber.Text = C.Sqrt().ToString();
+                tmp.Text = M.Radicalx().ToString();
 
-                C.Clear_A();
+                M.CalculatorMasaClear();
                 FreeButtons();
             }
         }
 
         //Butonul ce afiseza radacina unui numar apasat
-        private void buttonSquare_Click(object sender, EventArgs e)
+        private void ButonulRicareLaPutere(object sender, EventArgs e)
         {
-            if (CanPress())
+            if (ApasamButon())
             {
-                C.Put_A(Convert.ToDouble(labelNumber.Text));
+                M.CalculatorMasa(Convert.ToDouble(tmp.Text));
 
-                labelNumber.Text = C.Square().ToString();
+                tmp.Text = M.Ridicarepatrat().ToString();
 
-                C.Clear_A();
+                M.CalculatorMasaClear();
                 FreeButtons();
             }
         }
-          
-        
-          //CODE!!!!CODE IT!!!
+   
+          // functie care verifica daca au fost apasate mai mult de 2 butoane in acelasi moment
 
-
-          // ridicare la putere a 2 numere, must finish!
-          private void buttonDegreeY_Click(object sender, EventArgs e)
+          private bool ApasamButon()
           {
+               if (!ButonulDeMultiplic.Enabled)
+                    return false;
+
+               if (!ButonulDeImpar.Enabled)
+                    return false;
+
+               if (!buttonPlus.Enabled)
+                    return false;
+
+               if (!buttonMinus.Enabled)
+                    return false;
+               
+               return true;
+          }
+          // functie care scoate din functiune operatiile exexutate
+          private void FreeButtons()
+          {
+               ButonulDeMultiplic.Enabled = true;
+               ButonulDeImpar.Enabled = true;
+               buttonPlus.Enabled = true;
+               buttonMinus.Enabled = true;
+          }
+
+      /*    private void InitializeComponent()
+          {
+               this.SuspendLayout();
+               // 
+               // Form1
+               // 
+               this.BackgroundImage = global::calculator.Properties.Resources.yellow;
+               this.ClientSize = new System.Drawing.Size(511, 398);
+               this.ForeColor = System.Drawing.Color.Coral;
+               this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+               this.Name = "Form1";
+               this.Load += new System.EventHandler(this.Form1_Load);
+               this.ResumeLayout(false);
 
           }
+          */
+          
      }
 }

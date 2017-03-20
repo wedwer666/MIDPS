@@ -7,42 +7,42 @@ using System.Threading.Tasks;
 namespace calculator
 {
    
-    public class Calc : InterfaceCalc
+    public class Calc : InterfataCalc
     {
         private double a = 0;
-        private double memory = 0;
+       
 
-        public void Put_A(double a)
+        public void CalculatorMasa(double a)
         {
             this.a = a;
         }
 
-        public void Clear_A()
+        public void CalculatorMasaClear()
         {
             a = 0;
         }
 
-        public double Multiplication(double b)
+        public double Multiplicare(double b)
         {
             return a * b;
         }
 
-        public double Division(double b)
+        public double Impartire(double b)
         {
             return a / b;
         }
 
-        public double Sum(double b)
+        public double Adunare(double b)
         {
             return a + b;
         }
 
-        public double Subtraction(double b) //вычитание
+        public double Scadere(double b) 
         {
             return a - b;
         }
 
-        public double SqrtX(double b)
+        public double Radical(double b)
         {
             return Math.Pow(a, 1 / b);
         }
@@ -52,58 +52,15 @@ namespace calculator
             return Math.Pow(a, b);
         }
 
-        public double Sqrt()
+        public double Radicalx()
         {
             return Math.Sqrt(a);
         }
 
-        public double Square()
+        public double Ridicarepatrat()
         {
             return Math.Pow(a, 2.0);
         }
-
-        public double Factorial()
-        {
-            double f = 1;
-
-            for (int i = 1; i <= a; i++)
-                f *= (double)i;
-
-            return f;
-        }
-
-        
-        public double MemoryShow()
-        {
-            return memory;
-        }
-
-        
-        public void Memory_Clear()
-        {
-            memory = 0.0;
-        }
-
-       
-        public void M_Multiplication(double b)
-        {
-            memory *= b;
-        }
-
-        public void M_Division(double b)
-        {
-            memory /= b;
-        }
-
-        public void M_Sum(double b)
-        {
-            memory += b;
-        }
-
-        public void M_Subtraction(double b)
-        {
-            memory -= b;
-        }
-
+          
     }
 }
