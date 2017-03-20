@@ -12,8 +12,8 @@ $user_name = "";
 <body>
 <ul id="nav">
 
-	<li><a href="index.php">Home</a></li>
-	<li><a href="">Produsele</a>
+	<li><a href="index.php"><strong><font size="3" color="blue">Home</font></strong></a></li>
+	<li><a href=""><font size="3" color="yellow">Produsele</font></strong></a>
 	
 		<ul>
 			<li><a href="categorie.php">All</a>
@@ -28,19 +28,19 @@ $user_name = "";
 		</ul>
 
 	</li>
-	<li><a href="">Tendinte</a>
+	<li><a href=""><strong><font size="3" color="green">Tendinte</font></strong></a>
 		<ul>
-			<li><a href="about.php">Noutati</a>
+			<li><a href="about.php"><font size="3" color="green">Noutati</font></strong></a>
 			</ul>
 		</li>
-	<li><a href="">Contact</a>
+	<li><a href=""><font size="3" color="red">Contact</font></strong></a>
 		<ul>
 			<li><a href="contact.php">Chisinau</a>
 			<li><a href="contact2.php">Bucuresti</a>
 			<li><a href="contact3.php">Kiev</a>
 		</ul>
 		</li>
-	<li><a href="">Cumpara</a>
+	<li><a href=""><font size="3" color="Purple">Cumpara</font></strong></a>
 		<ul>
 			<li><a href="cumpara.php">Acum</a>
 		</ul>
