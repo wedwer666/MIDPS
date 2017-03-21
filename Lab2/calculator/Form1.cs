@@ -43,13 +43,7 @@ namespace calculator
                 tmp.Text = "-" + tmp.Text;
         }
 
-      /*  private void buttonPoint_Click(object sender, EventArgs e)
-        {
-            if ((tmp.Text.IndexOf(",") == -1) && (tmp.Text.IndexOf("∞") == -1))
-                tmp.Text += ",";
-        }
-
-               */
+    
           //butonul 0 de apasare
         private void Butonul0(object sender, EventArgs e)
         {
@@ -58,7 +52,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "0";
 
-         //   Corectnumar();
+         
         }
           // butonul 1 de apasare !!!
         private void Butonul1(object sender, EventArgs e)
@@ -68,7 +62,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "1";
 
-       //     Corectnumar();
+      
         }
           // butonul 2 de apasare
           private void Butonul2(object sender, EventArgs e)
@@ -78,7 +72,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "2";
 
-       //     Corectnumar();
+       
         }
           // butonul 3 de apasare
           private void Butonul3(object sender, EventArgs e)
@@ -88,7 +82,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "3";
 
-          //  Corectnumar();
+          
         }
 
         private void Butonul4(object sender, EventArgs e)
@@ -98,7 +92,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "4";
 
-         //   Corectnumar();
+         
         }
 
         private void Butonul5(object sender, EventArgs e)
@@ -108,7 +102,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "5";
 
-       //     Corectnumar();
+       
         }
 
         private void Butonul6(object sender, EventArgs e)
@@ -118,7 +112,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "6";
 
-      //      Corectnumar();
+     
         }
 
         private void Butonul7(object sender, EventArgs e)
@@ -128,7 +122,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "7";
 
-          //  Corectnumar();
+          
         }
 
         private void Butonul8(object sender, EventArgs e)
@@ -138,7 +132,7 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "8";
 
-         //   Corectnumar();
+         
         }
 
         private void Butonul9(object sender, EventArgs e)
@@ -148,26 +142,9 @@ namespace calculator
                else if (tmp.Text.Length < 22)
                     tmp.Text += "9";
 
-       //     Corectnumar();
         }
 
-       //fucntia de verificare daca numarul introdus a fost corect ???
-    /*    private void Corectnumar()
-       {
-            
-           if (tmp.Text.IndexOf("∞") != -1)
-              tmp.Text = tmp.Text.Substring(0, tmp.Text.Length - 1);
-
-           
-          if (tmp.Text[0] == '0' && (tmp.Text.IndexOf(",") != 1))
-            tmp.Text = tmp.Text.Remove(0, 1);
-
-            
-         if (tmp.Text[0] == '-')
-              if (tmp.Text[1] == '0' && (tmp.Text.IndexOf(",") != 2))
-                  tmp.Text = tmp.Text.Remove(1, 1);
-        }
-       */   
+          
         private void ButonulDeApasare(object sender, EventArgs e)
         {
             if (!ButonulDeMultiplic.Enabled)
