@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calculator
 {
-    //класс, реализующий интерфейс InterfaceCalc
+    
     public class Calc : InterfaceCalc
     {
         private double a = 0;
@@ -37,7 +37,7 @@ namespace calculator
             return a + b;
         }
 
-        public double Subtraction(double b) //вычитание
+        public double Subtraction(double b) 
         {
             return a - b;
         }
@@ -60,49 +60,6 @@ namespace calculator
         public double Square()
         {
             return Math.Pow(a, 2.0);
-        }
-
-        public double Factorial()
-        {
-            double f = 1;
-
-            for (int i = 1; i <= a; i++)
-                f *= (double)i;
-
-            return f;
-        }
-
-        //показать содержимое регистра мамяти
-        public double MemoryShow()
-        {
-            return memory;
-        }
-
-        //стереть содержимое регистра мамяти
-        public void Memory_Clear()
-        {
-            memory = 0.0;
-        }
-
-        //* / + - к регистру памяти
-        public void M_Multiplication(double b)
-        {
-            memory *= b;
-        }
-
-        public void M_Division(double b)
-        {
-            memory /= b;
-        }
-
-        public void M_Sum(double b)
-        {
-            memory += b;
-        }
-
-        public void M_Subtraction(double b)
-        {
-            memory -= b;
         }
 
     }
