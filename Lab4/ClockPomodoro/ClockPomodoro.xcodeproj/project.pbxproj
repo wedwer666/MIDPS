@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8209FA641E952402003611D6 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8209FA631E952402003611D6 /* View2.swift */; };
+		8209FA661E952418003611D6 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8209FA651E952418003611D6 /* View3.swift */; };
 		82166B791E93A672000840AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82166B781E93A672000840AB /* AppDelegate.swift */; };
 		82166B7B1E93A672000840AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82166B7A1E93A672000840AB /* ViewController.swift */; };
 		82166B7E1E93A672000840AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82166B7C1E93A672000840AB /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8209FA631E952402003611D6 /* View2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
+		8209FA651E952418003611D6 /* View3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		82166B751E93A672000840AB /* ClockPomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockPomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82166B781E93A672000840AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82166B7A1E93A672000840AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 				82166BA61E93D061000840AB /* sound.mp3 */,
 				82166BA81E93D732000840AB /* fanfare.mp3 */,
 				82166B841E93A672000840AB /* Info.plist */,
+				8209FA631E952402003611D6 /* View2.swift */,
+				8209FA651E952418003611D6 /* View3.swift */,
 			);
 			path = ClockPomodoro;
 			sourceTree = "<group>";
@@ -270,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8209FA661E952418003611D6 /* View3.swift in Sources */,
 				82166B7B1E93A672000840AB /* ViewController.swift in Sources */,
+				8209FA641E952402003611D6 /* View2.swift in Sources */,
 				82166B791E93A672000840AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,6 @@ import AVFoundation
 
 class ViewController: UIViewController
 {
-    
     var seconds = 120
     var timer = Timer()
     var audioPlayer = AVAudioPlayer()
