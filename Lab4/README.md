@@ -33,11 +33,11 @@ In order to run the test the user must press the button Run in the main director
 
 ### And coding style tests
 
-Explain what these tests test and why
+The user should test this application on different layouts and devices in order to test it's functionality.
 
 ## Authors
 
-* **Mitriuc Maria** - *All the tastks she did there * 
+* **Mitriuc Maria** 
 
 ## License
 
