@@ -1,44 +1,42 @@
-# MIDPS
-Medii Interactive de Dezvoltare a Produselor Soft Lab #5
+## MIDPS 5th Project
 
-Title
+Complex Game Application 
+ * Language: JavaScript, Canvas and Css / Html5
+ * IDE: Brackets.io
 
-Lucru in echipa. Aplicatie complexa
+## Getting Started
 
-Contents
+1. Install IDE http://brackets.io/ on laptop
+2. Add the github plugin in order to upload the chenges in the project: https://www.youtube.com/watch?v=YVbbdCDBIbI 
+3. De facut git pull la proiect pe laptop
+3. Make git pull of the project.
 
-Lucru in echipa
-Aplicarea tehnicilor, limbajelor de programare si IDE-uri studiate in laboratoarele precedente.
-Obiective:
 
-Crearea unei aplicatii complexe in echipa.
-Divizarea sarcinilor pe membrii echipei
-Laboratory work Requirements:
+## Running the tests
 
-Lucreaza la proiect in echipa de 2-3 persoane
+In order to run the test the user must press the button Live Preview from the main directory of the project (Example : paint.html).
 
-Divizeaza task-urile si descrie-le in raport, indicind pentru fiecare cine este responsabil pentru el.
+### Break down into end to end tests
 
-Inainte de a trece la dezvoltarea proiectului, creeaza o schema cit mai apropiata de rezultatul final (schema trebuie sa fie primul commit)
+Explain what these tests test and why
 
-Fiecare din membrii echipei va lucra pe propriul branch in git, iar una din persoane va avea grija sa faca merge cu master.
 
-Proiectul se poate afla doar in repozitoriul unui membru al echipei.
+### And coding style tests
 
-Fiecare din membru va avea propriul raport care va include propriile observatii si concluzii.
+Explain what these tests test and why
 
-Dezvoltarea unei aplicatii:
-Desktop
-Mobile
-Web
-Browser Extension
-Game development (web, mobile, desktop)
-Service application
-Internet application
-Client application
-Incercati sa aplicati cit mai multe din thnologiile noi invatate:
+## Authors
 
-Integrarea cu baza de date
-Folosirea API
-Cross platform
-User friendly
+* **Daniela Cazac**
+* **Grubii Mihaela** 
+* **Mitriuc Maria** 
+
+## License
+
+This project was done as a part of the Final Project at Tehnical University of Moldova, Information Technolgy.
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+
