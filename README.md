@@ -3,10 +3,13 @@
 Integrated development environment
 
 
-|      MAP      |      IDE      |   Language   | 
+|      MAP      |      IDE      |   Language   |  
 | ------------- | ------------- |------------- |
-| Content Cell  | Content Cell  |              | 
-| Content Cell  | Content Cell  |              |
+|     Lab 1     |  Git Config   |   Git Bash   | 
+|     Lab 2     | Visual Studio |      C#      |
+|     Lab 3     |   Sublime 3   |  PhP, MYSQL  |
+|     Lab 4     |     Xcode     |     Swift    |
+|     Lab 5     |    Brackets   |  JavaScript  |
 
 ## Running the tests
 
