@@ -3,10 +3,10 @@
 Integrated development environment
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|      MAP      |      IDE      |   Language   | 
+| ------------- | ------------- |------------- |
+| Content Cell  | Content Cell  |              | 
+| Content Cell  | Content Cell  |              |
 
 ## Running the tests
 
